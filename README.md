@@ -1,2 +1,2 @@
 # ocrapp_tesseract
-OCR App powered by Tesseract
+OCR App built on FastAPI and powered by Google Tesseract
