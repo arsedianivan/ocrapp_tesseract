@@ -2,6 +2,9 @@ from fastapi import FastAPI, File, UploadFile
 import shutil
 import pytesseract
 
+# Specify the path to the Tesseract executable
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
 app = FastAPI()
 
 @app.post('/ocr')
